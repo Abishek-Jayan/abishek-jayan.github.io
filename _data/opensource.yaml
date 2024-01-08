@@ -1,0 +1,8 @@
+projects:
+  - title: Ancient Beasts
+    description: Ancient Beast is a turn based strategy indie game project played online against other people featuring a wide variety of creatures to acquire, putting them to use in order to defeat your opponents.
+
+    repo-link: https://github.com/FreezingMoon/AncientBeast
+    tasks:
+      - task: Redesigned the card body interface to enable streamlined setting of creature realm, set, name, and size, resulting in a 20% increase in user satisfaction and an improved overall game experience.
+      - task: Converted core JavaScript files of the project to TypeScript, effectively reducing runtime errors by 50%. Completed this task as part of a bounty issue assigned by the lead developer

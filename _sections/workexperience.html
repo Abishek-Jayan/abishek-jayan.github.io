@@ -1,0 +1,10 @@
+<!--Work Experience Section-->
+
+<hr />
+<div class="row" id="workexperience">
+  <div class="col">
+    <h2 class="mb-5">📍 Experience</h2>
+    {% for company in site.data.workexperience.companies %} {% include_relative
+    _libs/workexperience_widget.html %} {% endfor %}
+  </div>
+</div>

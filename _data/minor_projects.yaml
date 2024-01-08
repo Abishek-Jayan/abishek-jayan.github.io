@@ -1,0 +1,20 @@
+mini-projects:
+  - title: N3twatch
+    code: https://github.com/Abishek-Jayan/N3twatch
+    description: Firefox extension that scans downloaded files and runs it through an online 3rd party scanner for virus detection.
+
+  - title: Workout Mixer
+    code: https://github.com/Abishek-Jayan/Workout-Mixer
+    description: An application that autogenerates workouts for me based on a custom built workout database, classifying it based on the day and muscle group to be worked.
+
+  - title: Dragon Killer
+    code: https://github.com/Abishek-Jayan/Dragon-Killer
+    description: RPG text adventure game made with Python.
+
+  - title: Archmagut
+    code: https://github.com/Abishek-Jayan/Archmagut
+    description: Personal todo app project I built for desktops.
+
+  - title: VidFlow
+    code: https://github.com/Abishek-Jayan/Vid-Flow
+    description: A small project I made using HTML,CSS and JS where if you click the button, a random Youtube video will appear in the iframe below.

@@ -1,0 +1,10 @@
+<!-- minor_projects section -->
+
+<hr />
+<div class="row" id="minor_projects">
+  <div class="col">
+    <h2 class="mb-5">📍 Minor Projects</h2>
+    {% for mini-project in site.data.minor_projects.mini-projects %} {%
+    include_relative _libs/minor_projects_widget.html %} {% endfor %}
+  </div>
+</div>

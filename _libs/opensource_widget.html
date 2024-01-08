@@ -1,0 +1,24 @@
+<div class="project">
+  <div class="row mb-4">
+    <div class="col-sm-8">
+      <b>{{project.title}}</b>
+    </div>
+    <div class="col-sm-8">
+      <a href="{{project.repo-link}}">[CODE]</a>
+    </div>
+    <div class="col-sm-12">
+      <u
+        ><b><i>Description</i></b
+        >:</u
+      >
+      {{project.description}}
+    </div>
+    <div class="col">
+      <ul>
+        {% for task in project.tasks %}
+        <li>{{task.task}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

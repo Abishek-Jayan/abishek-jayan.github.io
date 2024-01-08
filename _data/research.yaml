@@ -1,0 +1,23 @@
+projects:
+  - title: Prediction of Air Quality Analysis using Machine Learning Methods
+    conference: International Journal of Science and Research (IJSR), Volume 10 Issue 8, August 2021, pp. 981-986,
+    conference-web: https://www.ijsr.net/issue1.php?page=180&i=3&edition=Volume%2010%20Issue%208,%20August%202021
+    status: Published
+    authors: <u>Abishek Jayan</u>.
+    link: https://www.ijsr.net/getabstract.php?paperid=SR21821190658
+    abstract-less: Air Pollution is a global problem that has affected mankind for a very long time. It causes lasting damage to human health and property. As such, governments around the world adopted a system of measuring air pollutant concentrations called Air Quality Index, which provides an easier way to keep track of pollutant concentrations. In this study, we employed two machine learning models, the Extreme Learning Machine model is a
+    abstract-more: variant of the traditional Single Layer Feed forward Artificial Neural Network, which prioritizes speed over accuracy when it comes to making predictions. The Seemingly Unrelated Regression is a traditional statistical model which finds relationships between variables that are uncorrelated with each other but whose error terms correlate, hence the term ?seemingly unrelated?. The models were trained using three years of data from 2018 - 2020. The optimum combinations of input variables to be used to maximize accuracy were also discovered during this training period. They are then tested for the first three months of 2021. The scoring was evaluated using R2 scoring method and we observed that the ELM model scored much higher accuracies than the SUR model, making it best suited for predicting the air quality of Trivandrum City.
+    tag: neural-network
+    category: machine-learning
+
+  - title: An Analysis and Comparison Of Deep-Learning Techniques and Hybrid Model for Sentiment Analysis for Movie Review
+    system-name:
+    conference: 2022 3rd International Conference for Emerging Technology (INCET)
+    conference-web: http://www.incet.org/
+    status: Published
+    authors: <u>Abishek Jayan</u>, Swapnil Sinha, Rishabh Kumar.
+    link: https://ieeexplore.ieee.org/document/9824630
+    abstract-less: In today’s world, where each day 2.5 quintillion bytes of data is generated, the safe storage and secure processing of such data is a fundamental task. The vastness of the web has brought trillions of data as comments, reviews, blog posts etc. For a service provider the analysis of these are very essential and also finding out the trends in which sentiment analysis plays a huge role. This differs from typical topic-based text classification as it is done by classifying text based on the sentiment it conveys. User generated
+    abstract-more: text is the basis from which opinion and subject knowledge is drawn for sentiment analysis. In this paper, we deal with the sentiment analysis of the IMDB dataset of movie reviews. We explore the effectiveness of different deep learning techniques such as CNN, LSTM, LSTM-CNN, GRU, BERT, BERT-CNN, BERT-LSTM for the sentiment analysis of the IMDB movie review dataset. Data cleaning and the techniques used are explained and the performance of these various algorithms used are measured in terms of recall, precision and accuracy. In this we hope to find the best machine learning model amongst the ones tested for future research.
+    tag: ensemble-neural-network
+    category: machine-learning

@@ -1,0 +1,28 @@
+companies:
+  - name: QBurst
+    position: Software Engineer
+    tenure: Aug 2021-Present
+    projects:
+      - project-heading: Singlehandedly developed and reworked major portions of the frontend of a Dubai-based Bread n' Breakfast company website and it's admin site.
+        tasks:
+          - task: Implemented features for assigning discount offers and major deals to different properties. Added image uploading integration for the same on the admin page.
+
+      - project-heading: Worked on rapid transformation of frontend for a Fortune 500 music distribution website, utilizing JavaScript, JQuery, and Ruby on Rails templating, to meet tight delivery deadlines.
+        tasks:
+          - task: Revamped JavaScript and CSS for the release pitching form page, resulting in a remarkable 30% increase in site traffic.
+          - task: Strengthened site security and enhanced customer satisfaction by building modals and implementing frontend-side validation for input forms.
+
+      - project-heading: Developed the frontend of a key B2B desktop application for a Fortune 500 company, leveraging advanced frameworks and libraries, such as React.js, to deliver optimal user experience. and best practices to ensure seamless user experience and improved performance.
+        tasks:
+          - task: Designed and implemented the entire functionality for a Screen Capture feature using RecordRTC, including creating the necessary extension script using JavaScript, as well as integrating the functionality to pull data from the YouTube API. This feature was used for recording auctions, which improved user satisfaction by enabling fair auctions without requiring additional setup from auctioneer side. Developed the user interface and functional design for the Notification Page and its corresponding Popups, resulting in a 30% increase in user engagement and a 50% decrease in user complaints.
+          - task: Developed the user interface and functional design for the Notification Page and its corresponding Popups, resulting in a 30% increase in user engagement and a 50% decrease in user complaints.
+
+      - project-heading: Led the development of the frontend and backend of a major social media platform using React JS and Django, achieving a total site traffic of over 1,500 users worldwide within six months of launch
+        tasks:
+          - task: Developed the front-end components for Firebase Cloud Messaging foreground and background push notifications, as well as the back-end FCM API and token storage systems using, resulting in a 40% increase in site usage times.
+          - task: Created a custom hashing algorithm to produce unique fixed size IDs for posts and comments keeping, eliminating the possibility of future collisions. This led to the removal of a major server crashing error.
+          - task: Developed the logic in Django for fast sorting and ordering of posts, saving users several minutes each time they reload the page.
+          - task: Applied a custom hashing algorithm to produce unique id’s for all posts and comments with zero limitation on size, preventing the possibility of future collisions.
+          - task: Implemented a database cleanup system to remove unwanted tokens and files and used Celery Beat to schedule it to run automatically during maintenance hours.
+          - task: Integrated the S3 storage service for the adding and removal of images and added a feature to resize the images before uploading, thereby optimizing storage space and upload speed.
+          - task: Deployed the Docker image onto a production server while including asynchronous maintenance tasks to be performed using a Redis broker.

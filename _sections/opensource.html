@@ -1,0 +1,10 @@
+<!--Open Source Section-->
+
+<hr />
+<div class="row" id="opensource">
+  <div class="col">
+    <h2 class="mb-5">📍 Open Source Contributions</h2>
+    {% for project in site.data.opensource.projects %} {% include_relative
+    _libs/opensource_widget.html %} {% endfor %}
+  </div>
+</div>

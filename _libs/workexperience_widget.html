@@ -1,0 +1,29 @@
+<div class="project">
+  <div class="row mb-4">
+    <div class="col-sm-8">
+      <b>{{company.name}}</b>
+    </div>
+  </div>
+  <div class="row mb-4">
+    <div class="col-sm-8">
+      <i>{{company.position}}</i>
+    </div>
+    <div class="col text-right">
+      <i>{{company.tenure}}</i>
+    </div>
+  </div>
+  {% for project in company.projects %}
+  <div class="row-mb-4">
+    <div class="col">{{project.project-heading}}</div>
+  </div>
+  <div class="row-mb-4">
+    <ul>
+      {% for task in project.tasks %}
+      <div class="col">
+        <li>{{task.task}}</li>
+      </div>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>

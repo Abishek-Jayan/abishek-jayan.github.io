@@ -1,0 +1,17 @@
+<div class="row mb-4">
+  <div class="col">
+    <b>{{ mini-project.title }}</b>
+    <br />
+
+    {% if mini-project.code %}
+    <a href="{{ mini-project.code }}" target="_blank" rel="noopener">[CODE]</a>
+    {% endif %}
+    <br />
+    <u
+      ><b><i>Description</i></b
+      >:</u
+    >
+    {{ mini-project.description }}
+    <br />
+  </div>
+</div>

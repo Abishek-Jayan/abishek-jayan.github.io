@@ -1,0 +1,11 @@
+<!-- accomplishments section -->
+
+<hr />
+<div class="row" id="accomplishments">
+  <div class="col">
+    <h2 clss="mb-5">📍 Accomplishments</h2>
+    {% for accomplishment in site.data.accomplishments.accomplishments %} {%
+    include_relative _libs/accomplishments_widget.html %} {% endfor %}
+    <p></p>
+  </div>
+</div>

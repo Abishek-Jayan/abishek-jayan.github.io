@@ -1,0 +1,37 @@
+<div class="project" data-filter="{{ project.category }}">
+  <div class="row mb-4">
+    <div class="col-sm-8">
+      <b>{{ project.title }}</b>
+      <br />
+      <i
+        ><a href="{{ project.conference-web }}" target="_blank" rel="noopener"
+          >{{ project.conference }}</a
+        ></i
+      >
+      <br />
+      {% if project.status %}
+      <b style="color: #e74d3c">[{{ project.status }}]</b> {% endif %}
+      <a href="{{ project.link }}" target="_blank" rel="noopener">[LINK]</a>
+      <br />
+      {{ project.authors }}
+      <br />
+      <u
+        ><b><i>Abstract</i></b
+        >:</u
+      >
+      {{ project.abstract-less }}
+      <span class="collapse" id="{{ project.tag }}">
+        {{ project.abstract-more }}
+      </span>
+      <span>
+        <a
+          href="#{{ project.tag }}"
+          data-toggle="collapse"
+          onclick="toggleText(this)"
+          id="link-{{ project.tag }}"
+          >... See More</a
+        ></span
+      >
+    </div>
+  </div>
+</div>

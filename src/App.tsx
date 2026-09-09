@@ -1,13 +1,18 @@
-
+import Hero from './Hero'
+import NavBar from './NavBar'
+import Education from './Education'
 import './App.css'
-import LeftColumn from './LeftColumn'
-import RightColumn from './RightColumn'
-function App() {
+import CoreSkills from './CoreSkills'
+import Footer from './Footer'
 
+function App() {
   return (
     <>
-      <LeftColumn/>
-      <RightColumn/>
+      <NavBar/>
+      <Hero/>
+      <Education />
+      <CoreSkills/>
+      <Footer/>
     </>
   )
 }

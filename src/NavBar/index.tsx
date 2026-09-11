@@ -1,3 +1,4 @@
+import "./index.css";
 const NavBar = () => {
    return( <div>
         <span className="left">Abishek Jayan</span>

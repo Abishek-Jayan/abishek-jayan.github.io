@@ -1,8 +1,8 @@
 import "./index.css";
 const NavBar = () => {
    return( <div>
-        <span className="left">Abishek Jayan</span>
-        <span className="right">
+        <span className="nav-left">Abishek Jayan</span>
+        <span className="nav-right">
         <span>Education</span>
         <span>Experience</span>
         <span>Skill</span>

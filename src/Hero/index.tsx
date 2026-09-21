@@ -1,6 +1,7 @@
+import "./index.css"; 
 const Hero = () => {
     return(
-        <>
+        <div className="hero-parent">
         <div className="left">
             <h1>Hi, I'm Abishek Jayan, a Software Engineer passionate about Fullstack, AI and Multi Agentic Systems</h1>
             <p>I'm Abishek Jayan, recently graduated from Iowa State University with a Masters in Computer Science. Most recently, I worked at Chronos, an AI-powered multi-channel outreach SAAS platform, where I diagnosed and fixed a status-reconciliation bug that falsely marked connected Instagram accounts as disconnected, blocking AI-generated DM campaigns. This fix was delivered ahead of the platform's early-adopter rollout and commended by the CEO.   I also interned at Assembli, an AI-powered construction startup, where I built and deployed multi-agent RAG systems on Google Cloud Run to validate blueprints against building codes, improving accuracy and user satisfaction by 80%. I also placed 2nd in the Google North America Solution Challenge 2025 for building an AI-powered livestream search engine, and I contribute to ISU’s Bionics Lab, developing control software for a NASA-funded robotic hand project for lunar rover missions.
@@ -10,11 +11,14 @@ Before this, I was a Software Engineer at QBurst, where I led development of a s
         <a href="https://www.linkedin.com/in/abishek-jayan/"> More about Me</a>
         </div>
         <div className="right">
-            <img></img>
-            <span>Hire Me</span>
-            <span>Let's talk</span>
+            <img src="public\1750449875011.jpg"></img>
+            <div className="hero-right-buttons">
+                <span>Hire Me</span>
+                <span>Let's talk</span>
+            </div>
+
         </div>
-        </>
+        </div>
     );
 };
 

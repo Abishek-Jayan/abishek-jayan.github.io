@@ -1,0 +1,24 @@
+.hero-parent{
+    display:flex;
+
+}
+.right {
+    align-content: center;
+}
+.right img {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.right span {
+    border:1px solid black;
+    display:inline-block;
+    padding:10px;
+    background: #f8b355;
+    border-radius:10px
+}
+
+.hero-right-buttons {
+    display:flex;
+    justify-content: space-evenly;
+}

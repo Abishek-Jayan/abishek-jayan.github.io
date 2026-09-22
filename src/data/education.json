@@ -1,6 +1,15 @@
 [{
     "name":"Iowa State University",
+    "degree":"MS in Computer Science",
     "timeline": "Aug 2024 - May 2026",
     "location":"Ames, Iowa",
     "description": "2nd Place in Google North America Solution Challenge 2025\nTop 3 in the ISU Spring 2025 Advanced Coding Contest"
-}]
+},
+{
+    "name":"APJ Abdul Kalam Technological University",
+    "degree":"BTech in Civil Engineering",
+    "timeline": "Aug 2017 - Jun 2021",
+    "location":"Trivandrum, Kerala",
+    "description": ""
+}
+]

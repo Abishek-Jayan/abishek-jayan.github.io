@@ -10,6 +10,7 @@ function App() {
     <>
       <NavBar/>
       <Hero/>
+      <Experience/>
       <Education />
       <CoreSkills/>
       <Footer/>
